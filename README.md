@@ -1,2 +1,2 @@
 # Calcular-rea
-Calcula a área de figuras geométricas
+Calcula a área das figuras geométricas
