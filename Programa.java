@@ -20,7 +20,7 @@ public class Programa {
 	// Configura a leitura de dados
 	static Scanner in = new Scanner(System.in);
 
-	// teste
+	// Instancia as classes
 	static Triangulo triangulo = new Triangulo();
 	static Retangulo retangulo = new Retangulo();
 	static Circulo circulo = new Circulo();
@@ -44,7 +44,7 @@ public class Programa {
 			// Adicionei a linha de baixo para utilizar o atributo nome
 			System.out.printf("\n****" + figuraGeometrica.getNome().toUpperCase() + "****");
 			System.out.println("\n" + figuraGeometrica.getDescricao());
-			System.out.printf("¡rea da figura: %.2f \n", figuraGeometrica.getArea());
+			System.out.printf("√Årea da figura: %.2f \n", figuraGeometrica.getArea());
 
 		}
 
@@ -81,7 +81,7 @@ public class Programa {
 
 	}
 
-	// MÈtodo para o Circulo
+	// M√©todo para o Circulo
 	public static void definirCirculo() {
 		// Solicita os dados do CIRCULO
 		System.out.println("\n----CIRCULO----");
@@ -93,7 +93,7 @@ public class Programa {
 		circulo.setNome("Circulo");
 	}
 
-	// MÈtodo para o Trapezio
+	// M√©todo para o Trapezio
 	public static void definirTrapezio() {
 		// Solicita os dados do Trapezio
 		System.out.println("\n----Trapezio----");
@@ -111,7 +111,7 @@ public class Programa {
 		trapezio.setNome("Trapezio");
 	}
 
-	// MÈtodo para o Losango
+	// M√©todo para o Losango
 	public static void definirLosango() {
 		// Solicita os dados do Losango
 		System.out.println("\n----Losango----");
@@ -127,7 +127,7 @@ public class Programa {
 
 	}
 
-	// MÈtodo para o Quadrado
+	// M√©todo para o Quadrado
 	public static void definirQuadrado() {
 		// Solicita os dados do Losango
 		System.out.println("\n----Quadrado----");
